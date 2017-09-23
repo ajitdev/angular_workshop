@@ -1,22 +1,4 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <md-card class="card">
-  <div style="text-align:center">
-  <h1>
-    Hello {{name}}!!
-  </h1>
-  <form>
-    <div>
-      <md-form-field>
-        <input mdInput placeholder="Title" name="Name" (keyup)="ReplaceMe()" [(ngModel)]="user.name">
-      </md-form-field>
-      <md-form-field>
-        <textarea mdInput placeholder="Description"></textarea>
-      </md-form-field>
-    </div>
-
-    <button md-raised-button (click)="ReplaceMe()" color="primary">Click me!</button>
-    <button md-raised-button color="primary" (click)="ResetMe()">Reset</button>
-  </form>
-
- </div>
+  <app-login></app-login>
 </md-card>

@@ -6,15 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  private name: String = "Alien";
-  private user: any = {};
-  ngOnInit() {
-    this.name = "Alien";
-  }
-  ReplaceMe() {
-    this.name = this.user.name;
-  }
-  ResetMe() {
-    this.name = 'Alien';
-  }
+
 }

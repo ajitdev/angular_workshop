@@ -1,0 +1,15 @@
+<div style="text-align:center">
+  <form>
+    <div>
+      <md-form-field>
+        <input type="email" mdInput placeholder="Email" name="Name" [(ngModel)]="user.name">
+      </md-form-field>
+      <md-form-field>
+        <input type="password" mdInput placeholder="Password" name="Password" [(ngModel)]="user.pwd">
+      </md-form-field>
+    </div>
+    <div>&nbsp;</div>
+    <button md-raised-button color="primary" (click)="ReplaceMe()">Login</button>
+    <button md-raised-button color="primary" (click)="ResetMe()">Cancel</button>
+  </form>
+</div>

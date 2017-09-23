@@ -7,12 +7,12 @@ import { FormsModule } from '@angular/forms';
 import { MatCardModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
-import { MyComponentComponent } from './my-component/my-component.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MyComponentComponent
+    LoginComponent
   ],
   imports: [
     BrowserModule,
