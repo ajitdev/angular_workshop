@@ -14,4 +14,7 @@ export class AppComponent {
   ReplaceMe() {
     this.name = this.user.name;
   }
+  ResetMe() {
+    this.name = 'Alien';
+  }
 }

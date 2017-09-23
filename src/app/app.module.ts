@@ -4,6 +4,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material';
 import { MatInputModule } from '@angular/material';
 import { FormsModule } from '@angular/forms';
+import { MatCardModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
 import { MyComponentComponent } from './my-component/my-component.component';
@@ -18,7 +19,8 @@ import { MyComponentComponent } from './my-component/my-component.component';
     BrowserAnimationsModule,
     MatButtonModule,
     MatInputModule,
-    FormsModule
+    FormsModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
