@@ -1,0 +1,9 @@
+<div style="text-align:center">
+  <form>
+    <md-form-field>
+      <input type="email" mdInput placeholder="What are you looking for?" name="search" [(ngModel)]="searchtext.keyword">
+    </md-form-field>
+    <button md-raised-button color="primary" (click)="SearchGoogleCustom()">Search</button>
+  </form>
+</div>
+{{searchResults}}
