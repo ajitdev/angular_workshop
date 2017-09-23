@@ -9,6 +9,7 @@ import { MatCardModule } from '@angular/material';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { SearchComponent } from './search/search.component';
+import { SearchService } from './service/search.service';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,7 @@ import { SearchComponent } from './search/search.component';
     FormsModule,
     MatCardModule
   ],
-  providers: [],
+  providers: [SearchService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
